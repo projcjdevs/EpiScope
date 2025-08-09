@@ -1,0 +1,16 @@
+City: City of Manila, Total Infected: 7131, Percentage: 17%, Year: 2024
+City: City of Caloocan, Total Infected: 3537, Percentage: 8%, Year: 2024
+City: Quezon City, Total Infected: 10009, Percentage: 24%, Year: 2024
+City: City of Pasig, Total Infected: 3219, Percentage: 7%, Year: 2024
+City: City of Taguig, Total Infected: 2914, Percentage: 7%, Year: 2024
+City: City of Mandaluyong, Total Infected: 2245, Percentage: 5%, Year: 2024
+City: Pasay City, Total Infected: 2112, Percentage: 5%, Year: 2024
+City: City of Parañaque, Total Infected: 1860, Percentage: 4%, Year: 2024
+City: City of Las Piñas, Total Infected: 1701, Percentage: 4%, Year: 2024
+City: City of Valenzuela, Total Infected: 1580, Percentage: 3%, Year: 2024
+City: City of Marikina, Total Infected: 1468, Percentage: 3%, Year: 2024
+City: City of Muntinlupa, Total Infected: 1404, Percentage: 3%, Year: 2024
+City: City of Malabon, Total Infected: 869, Percentage: 2%, Year: 2024
+City: City of Navotas, Total Infected: 475, Percentage: 1%, Year: 2024
+City: City of San Juan, Total Infected: 439, Percentage: 1%, Year: 2024
+City: Pateros, Total Infected: 175, Percentage: 1%, Year: 2024
