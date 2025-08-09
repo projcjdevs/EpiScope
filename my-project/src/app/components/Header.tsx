@@ -4,14 +4,14 @@ import { useState } from 'react';
 
 interface HeaderProps {
   onMenuClick?: () => void;
-  onUserClick?: () => void;
+  onViewClick?: () => void;
   onSettingsClick?: () => void;
   onMoreClick?: () => void;
 }
 
 export default function Header({ 
   onMenuClick, 
-  onUserClick, 
+  onViewClick, 
   onSettingsClick, 
   onMoreClick 
 }: HeaderProps) {
@@ -44,17 +44,19 @@ export default function Header({
           
           {/* Right side */}
           <div className="flex items-center gap-2">
+            {/* Heatmap View Button */}
             <button 
               className={`group relative w-10 h-10 rounded-xl bg-gray-50/80 hover:bg-blue-50 text-gray-600 hover:text-blue-600 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg overflow-hidden ${
-                activeButton === 'user' ? 'bg-blue-600 text-white scale-95' : ''
+                activeButton === 'view' ? 'bg-blue-600 text-white scale-95' : ''
               }`}
-              onClick={() => handleButtonClick('user', onUserClick)}
-              aria-label="User Profile"
+              onClick={() => handleButtonClick('view', onViewClick)}
+              aria-label="Heatmap View"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
-              <i className="fas fa-user text-sm group-hover:scale-110 transition-transform duration-200"></i>
+              <i className="fas fa-fire text-sm group-hover:scale-110 transition-transform duration-200"></i>
             </button>
             
+            {/* Settings Button */}
             <button 
               className={`group relative w-10 h-10 rounded-xl bg-gray-50/80 hover:bg-blue-50 text-gray-600 hover:text-blue-600 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg overflow-hidden ${
                 activeButton === 'settings' ? 'bg-blue-600 text-white scale-95' : ''
@@ -66,6 +68,7 @@ export default function Header({
               <i className="fas fa-cog text-sm group-hover:scale-110 transition-transform duration-200"></i>
             </button>
             
+            {/* More Options Button */}
             <button 
               className={`group relative w-10 h-10 rounded-xl bg-gray-50/80 hover:bg-blue-50 text-gray-600 hover:text-blue-600 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg overflow-hidden ${
                 activeButton === 'more' ? 'bg-blue-600 text-white scale-95' : ''
