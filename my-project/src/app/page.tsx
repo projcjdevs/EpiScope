@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import dynamic from 'next/dynamic';
 import Header from './components/Header';
+import CityDataContainer from './components/CityDataContainer';
 
 const Map = dynamic(() => import('./components/Map'), {
   ssr: false,
@@ -25,6 +26,7 @@ export default function HomePage() {
         onMoreClick={() => console.log('More clicked')}
       />
       <Map showHeatmapSelector={showHeatmapSelector} />
+      <CityDataContainer />
     </div>
   );
 }
