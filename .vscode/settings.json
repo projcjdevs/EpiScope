@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "c:\\users\\renz\\appdata\\local\\programs\\python\\python310\\python.exe",
+    "python.analysis.extraPaths": [
+        "./dataScrape/setup_",
+        "c:\\users\\renz\\appdata\\local\\programs\\python\\python310\\lib\\site-packages"
+    ]
+}
